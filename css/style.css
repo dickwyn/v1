@@ -1,10 +1,39 @@
-.error {
-    font-size: 20em;
-    color: darkred;
+/* to keep static state */
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
 }
 
-.fine-print {
-    font-style: italic;
-    font-family: monospace;
-    font-size: 0.8em;
+body {
+    background-color: mediumpurple;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+footer {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.name {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.headline {
+    font-family: 'Roboto Condensed' , sans-serif;
+    font-weight: 100;
+}
+
+.wrapper {
+    background-color: white;
+    margin: 108px 20px auto;
+    padding: 50px 80px 50px 80px;
+    border-radius: 8px; 
 }
