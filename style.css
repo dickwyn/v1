@@ -1,25 +1,32 @@
-/* to keep static state */
-html, body {
+html {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
     margin: 0; 
     height: 100%; 
-    overflow: hidden
+    overflow: auto;
 }
 
 body {
     background-color: mediumpurple;
 }
 
-html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    color: black;
+.logo {
+    margin: 1em;
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
-footer {
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
+.wrapper {
+    background-color: white;
+    max-width: 640px;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px !important; 
 }
+
 .name {
     font-family: 'Roboto' , sans-serif;
     font-weight: 700;
@@ -31,9 +38,69 @@ footer {
     font-weight: 100;
 }
 
-.wrapper {
-    background-color: white;
-    margin: 108px 20px auto;
-    padding: 50px 80px 50px 80px;
-    border-radius: 8px; 
+@media screen and (max-width: 960px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
+
+@media screen and (max-width:640px) {
+    body {
+        background-color: red;
+    }
+    
+    html, body {
+        height: auto;
+        overflow: auto;
+    }
+    
+    .wrapper {
+    width: 100%;
+    }
+    
+    .content {
+        padding: 3em 5em !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: black;
+    }
+    
+    .content {
+        padding: 5em 0.5em 1em;
+    }
+}
+
+footer {
+    color: white;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.content {
+    padding: 80px 80px 10px;
+}
+
+.buttons {
+
+    padding-bottom: 10px;
+}
+
+.buttons a {
+    color: purple;
+    padding-left: 20px;
+}
+
+#qr {
+    margin: 5% 25% 1%;
+    width: 50%;
+    border: 3px solid #7bb32e;
+    padding: 10px;
+    max-width: 600px;
+}
+#wechat {
+    background-color:forestgreen;
 }
