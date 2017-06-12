@@ -79,35 +79,39 @@ body {
     padding: 10px;
 }
 
-.fa-twitter-square {
+a .fa {
+    color: darkgray;
+}
+
+.fa-twitter-square:hover {
     color: #1da1f2;
 }
 
-.fa-facebook-square {
+.fa-facebook-square:hover {
     color: #3b5998;
 }
 
-.fa-linkedin-square {
+.fa-linkedin-square:hover {
     color: #0077b5;
 }
 
-.fa-github-square {
+.fa-github-square:hover {
     color: #333;
 }
 
-.fa-snapchat-square {
+.fa-snapchat-square:hover {
     color: #fffc00;
 }
 
-.fa-instagram {
+.fa-instagram:hover {
     color: #C92BB7 ;
 }
 
-.fa-weixin {
+.fa-weixin:hover {
     color: #7bb32e;
 }
 
-.fa-google-plus-square {
+.fa-google-plus-square:hover {
     color: #dd4b39;
 }
 
