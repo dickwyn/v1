@@ -13,9 +13,17 @@ body {
     background: linear-gradient(to right, #B06AB3, #4568DC); 
 }
 
+.hidden-link {
+    color: whitesmoke;
+    text-decoration: none !important;
+}
+
+a.hidden-link:hover { 
+    color: black;
+}
+
 .logo {
     margin: 1em;
-    color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -140,7 +148,7 @@ a .fa {
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 529px) {
     body {
         background: #000000;  
         background: -webkit-linear-gradient(to right, #434343, #000000);  
