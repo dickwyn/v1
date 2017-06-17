@@ -84,9 +84,20 @@
             <p><Center class="error"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> This site is still not secure</Center></p>
         </div>
     </footer>
-
+    
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
+    </script>
     <!-- Javascript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
