@@ -79,11 +79,11 @@ a.hidden-link:hover {
     line-height: 22px;
 }
 
-.buttons {
-    padding: 10px 0px 20px!important;
+.button {
+    padding: 10px 0px 50px!important;
 }
 
-.buttons a {
+.button a {
     padding: 10px;
 }
 
