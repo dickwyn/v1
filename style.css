@@ -79,48 +79,10 @@ a.hidden-link:hover {
     line-height: 22px;
 }
 
-.button {
-    padding: 10px 0px 50px!important;
-}
+
 
 .button a {
     padding: 10px;
-}
-
-a .fa {
-    color: darkgray;
-}
-
-.fa-twitter-square:hover {
-    color: #1da1f2;
-}
-
-.fa-facebook-square:hover {
-    color: #3b5998;
-}
-
-.fa-linkedin-square:hover {
-    color: #0077b5;
-}
-
-.fa-github-square:hover {
-    color: #333;
-}
-
-.fa-snapchat-square:hover {
-    color: #fffc00;
-}
-
-.fa-instagram:hover {
-    color: #C92BB7 ;
-}
-
-.fa-weixin:hover {
-    color: #7bb32e;
-}
-
-.fa-google-plus-square:hover {
-    color: #dd4b39;
 }
 
 @media screen and (max-width: 960px) {
@@ -188,4 +150,58 @@ footer {
     background-color: red;
     width: 100%;
     height: 50px; 
+}
+
+.list-social-icons a {
+    color: #455A64;
+}
+
+.twitter a:hover {
+    color: #1da1f2;
+}
+
+.facebook a:hover {
+    color: #3b5998;
+}
+
+.linkedin a:hover {
+    color: #0077b5;
+}
+
+.github a:hover {
+    color: #333;
+}
+
+.snapchat a:hover {
+    color: #fffc00;
+}
+
+.instagram a:hover {
+    color: #fd1d1d;
+}
+
+.weixin a:hover {
+    color: #7bb32e;
+}
+
+.googleplus a:hover {
+    color: #dd4b39;
+}
+
+.list-social-icons {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    width:100%;
+    text-align:center;
+}
+
+li {
+    padding: 0.6em 1em 0.3em !important;
+}
+
+.social-bar {
+    padding: 1.2em;
 }
