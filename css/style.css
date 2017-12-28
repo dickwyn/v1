@@ -9,9 +9,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
 }
 
 .logo {
@@ -160,17 +158,13 @@ footer p {
 
 @media screen and (max-width: 960px) {
     body {
-        background: #f79d00;
-        background: -webkit-linear-gradient(to right, #64f38c, #f79d00);
-        background: linear-gradient(to right, #64f38c, #f79d00);
+        
     }
 }
 
 @media screen and (max-width:640px) {
     body {
-        background: #870000;
-        background: -webkit-linear-gradient(to right, #190A05, #870000);
-        background: linear-gradient(to right, #190A05, #870000);
+        
     }
 
     .wrapper {
@@ -185,9 +179,7 @@ footer p {
 
 @media screen and (max-width: 529px) {
     body {
-        background: #000000;
-        background: -webkit-linear-gradient(to right, #434343, #000000);
-        background: linear-gradient(to right, #434343, #000000);
+        
     }
 
     .content {
