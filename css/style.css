@@ -238,3 +238,8 @@ footer p {
     font-weight: 100;
     text-transform: lowercase;
 }
+
+.resume {
+    margin: 1em;
+    padding: 1em 1em;
+}
