@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    background-image: linear-gradient(to top, #200122, #6f0000);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -404,4 +404,24 @@ footer .social a:active {
 
 .resume-subblock-alt {
     margin: 0em 0em 2em
+}
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 6px;
+  border: 1px solid transparent;
+  min-width: 10px;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.badge.badge-outlined {
+  border-color: #ef1c1c;
+  color: #ef1c1c;
 }
